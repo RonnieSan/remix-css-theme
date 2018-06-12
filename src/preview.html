@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Remix CSS - Default Theme</title>
+	<style>
+		#wrapper {
+			padding: 50px 0;
+		}
+		section {
+			margin-bottom: 3em !important;
+		}
+		#colors .column {
+			min-width: 80px;
+		}
+		.swatch {
+			color: white;
+			height: 120px;
+			padding: 10px;
+			width: 100%;
+		}
+		.grid.sample .column {
+			background-color: #E5E5E5;
+			min-height: 3em;
+			min-width: 250px;
+		}
+
+		.padded {
+			padding: 1em;
+		}
+
+		.spacer {
+			flex: 0 0 50px;
+		}
+
+		.bkg-color-white {
+			border: 1px solid #CCC;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="container">
+				<h1>Remix CSS - Default Theme</h1>
+				<hr>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<h2>Text</h2>
+
+				<div class="grid">
+					<div class="row">
+						<div class="column">
+							<h1>Heading 1</h1>
+							<p class="lead">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+							<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+							<h2>Heading 2</h2>
+							<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+
+							<h3>Heading 3</h3>
+							<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+							<h4>Heading 4</h4>
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+							<h4>Small Caps</h4>
+							<p class="smallcaps">Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.</p>
+
+							<h4>Smaller Text</h4>
+							<p class="smaller">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+
+							<h4>Links</h4>
+							<p><a href="#">Click here for more information</a></p>
+
+							<h4>Miscellaneous</h4>
+							<p>What does <abbr>HTML</abbr> stand for?</p>
+						</div>
+						<div class="spacer"></div>
+						<div class="column">
+							<h3>Lists</h3>
+							<h4>Bulleted Lists</h4>
+							<ul class="bulleted">
+								<li>First</li>
+								<li>Second</li>
+								<li>Third</li>
+								<ul class="bulleted">
+									<li>First Nested</li>
+									<li>Second Nested</li>
+									<li>Third Nested</li>
+								</ul>
+							</ul>
+
+							<h4>Numbered Lists</h4>
+							<ol class="numbered">
+								<li>First</li>
+								<li>Second</li>
+								<li>Third</li>
+								<ol>
+									<li>First Nested</li>
+									<li>Second Nested</li>
+									<li>Third Nested</li>
+								</ol>
+							</ol>
+
+							<h4>Definition Lists</h4>
+							<dl>
+								<dt>Consectetur</dt>
+								<dd>Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</dd>
+								<dt>Lorem</dt>
+								<dd>Aenean lacinia bibendum nulla sed consectetur.</dd>
+							</dl>
+
+							<h3>Block Quotes</h3>
+							<blockquote>
+								Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+							</blockquote>
+
+							<h3>Code</h3>
+
+							<h4>Inline Code</h4>
+							<p>The quick brown fox <code>jumps</code> over the lazy dog.</p>
+
+							<h4>Code Block</h4>
+							<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot;&gt;
+	&lt;title&gt;Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- ENTER SOME STUFF HERE --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h2>Tables</h2>
+				<div class="table-wrapper">
+					<table class="striped bordered">
+						<thead>
+							<tr>
+								<th class="xs">Tiny</th>
+								<th class="s">Small</th>
+								<th class="m">Medium</th>
+								<th class="l">Large</th>
+								<th>Normal</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>First and<br />Second Line</td>
+								<td class="number">1,234,567</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>One line only</td>
+								<td class="number">1,234,567</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h2>Forms</h2>
+				
+				<form name="example_form" action="/">
+					<div class="grid">
+						<div class="row">
+							<div class="column">
+
+								<fieldset>
+									<legend>String Inputs</legend>
+
+									<div class="control-group">
+										<label class="control-label">Text Input:</label>
+										<div class="controls">
+											<div class="field">
+												<div class="invalid">
+													<div class="input-wrapper">
+														<input type="text">
+													</div>
+													<div class="validation-error">This field is required</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<label class="control-label">Number Input:</label>
+										<div class="controls">
+											<div class="field">
+												<div class="input-wrapper">
+													<div class="helper">$</div>
+													<input type="number">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<label class="control-label">Textarea:</label>
+										<div class="controls">
+											<div class="field">
+												<div class="textarea-wrapper">
+													<textarea></textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<label class="control-label">Select:</label>
+										<div class="controls">
+											<div class="field">
+												<div class="select-wrapper">
+													<select>
+														<option>First</option>
+														<option>Second</option>
+														<option>Third</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+							</div>
+							<div class="spacer"></div>
+							<div class="column">
+								
+								<fieldset>
+									<legend>Clickable Inputs</legend>
+
+									<div class="control-group">
+										<div class="control-label">Radio List:</div>
+										<div class="controls stacked tight">
+											<div class="field">
+												<label class="radio-wrapper"><input type="radio" name="radio"> First</label>
+											</div>
+											<div class="field">
+												<label class="radio-wrapper"><input type="radio" name="radio"> Second</label>
+											</div>
+											<div class="field">
+												<label class="radio-wrapper"><input type="radio" name="radio"> Third</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<div class="control-label">Checklist:</div>
+										<div class="controls stacked tight">
+											<div class="field">
+												<label class="checkbox-wrapper"><input type="checkbox" name="checkbox"> First</label>
+											</div>
+											<div class="field">
+												<label class="checkbox-wrapper"><input type="checkbox" name="checkbox"> Second</label>
+											</div>
+											<div class="field">
+												<label class="checkbox-wrapper"><input type="checkbox" name="checkbox"> Third</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<div class="control-label">Buttons:</div>
+										<div class="controls">
+											<div class="field fit">
+												<input type="submit" value="Submit">
+											</div>
+											<div class="field fit">
+												<input class="bkg-color-red" type="reset" value="Reset">
+											</div>
+											<div class="field fit">
+												<input type="button" value="Button">
+											</div>
+											<div class="field fit">
+												<button type="button">
+													<span class="icon">X</span><span class="label">Actual Button</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="colors">
+			<div class="container">
+				<h2>Colors</h2>
+
+				<div class="grid no-gutter">
+					<div class="row">
+						<div class="column">
+							<div class="swatch bkg-color-primary">@primary-color</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-secondary">@secondary-color</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-accent">@accent-color</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column">
+							<div class="swatch bkg-color-black">@black</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-navy">@navy</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-blue">@blue</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-teal">@teal</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-green">@green</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-yellow">@yellow</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-orange">@orange</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-red">@red</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-magenta">@magenta</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-purple">@purple</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-brown">@brown</div>
+						</div>
+						<div class="column">
+							<div class="swatch bkg-color-white text-color-black">@white</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h2>Grid</h2>
+
+				<div class="grid sample">
+					<div class="row">
+						<div class="column"></div>
+					</div>
+					<div class="row">
+						<div class="column"></div>
+						<div class="column"></div>
+					</div>
+					<div class="row">
+						<div class="column span-2">
+							<div class="padded">.span-2</div>
+						</div>
+						<div class="column"></div>
+					</div>
+					<div class="row">
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+					</div>
+					<div class="row">
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+					</div>
+					<div class="row">
+						<div class="column"></div>
+						<div class="column span-3">
+							<div class="padded">.span-3</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column span-2">
+							<div class="padded">.span-2</div>
+						</div>
+						<div class="column span-3">
+							<div class="padded">.span-3</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+						<div class="column"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
