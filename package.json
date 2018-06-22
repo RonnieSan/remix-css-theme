@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/RonnieSan/remix-css-theme#readme",
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
+    "autoprefixer": "^8.6.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
@@ -45,6 +45,6 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "remix-css": "^1.0.5"
+    "remix-css": "^1.0.7"
   }
 }
