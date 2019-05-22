@@ -20,7 +20,7 @@ module.exports = {
 	},
 	resolve : {
 		alias : {
-			'theme' : path.resolve(__dirname, 'theme.less')
+			'theme' : path.resolve(__dirname, 'src/less/theme.less')
 		}
 	},
 	devServer : {
