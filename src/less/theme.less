@@ -155,10 +155,16 @@
 @import (css) 'https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,700';
 
 // Font stacks
-@body-font: 'Roboto', Arial, Helvetica, Sans-serif;
-@heading-font: 'Roboto', Arial, Helvetica, Sans-serif;
-@serif-font: Georgia, Cambria, 'Times New Roman', Serif;
-@mono-font: 'Roboto Mono', Menlo, Courier, System;
+@font: 'Roboto', Arial, Helvetica, Sans-serif;
+@font-alt: 'Roboto', Arial, Helvetica, Sans-serif;
+@font-serif: Georgia, Cambria, 'Times New Roman', Serif;
+@font-mono: 'Roboto Mono', Menlo, 'Droid Sans Mono', Courier, System;
+
+// For backwards compatibility
+@body-font: @font;
+@heading-font: @font-alt;
+@serif-font: @font-serif;
+@mono-font: @font-mono;
 
 // Font sizes
 @font-size: 16px;
