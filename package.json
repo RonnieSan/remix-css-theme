@@ -1,6 +1,6 @@
 {
   "name": "remix-css-theme-default",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default theme for Remix CSS",
   "main": "src/less/theme.less",
   "scripts": {
