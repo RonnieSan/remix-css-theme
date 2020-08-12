@@ -46,6 +46,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "remix-css": "^1.4.0"
+    "remix-css": "^1.4.1"
   }
 }
